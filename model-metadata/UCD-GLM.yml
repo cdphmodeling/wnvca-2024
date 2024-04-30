@@ -1,18 +1,18 @@
 team_name: "UC Davis"
 team_abbr: "UCD"
-model_name: ""
+model_name: "GLM"
 model_abbr: "GLM"
 model_version: "1.0"
 model_contributors: [
   {
     "name": "Aynaz Lotfata",
     "affiliation": "UC Davis",
-    "email": "EMAIL@UCDAVIS.com"
+    "email": "alotfata@ucdavis.edu"
   },
   {
     "name": "Christopher M Barker ",
     "affiliation": "UC Davis",
-    "email": "EMAIL@UCDAVIS.com"
+    "email": "cbarker@ucdavis.edu"
   }
 ]
 website_url: "https://barkerlab.ucdavis.edu/"
@@ -20,8 +20,8 @@ license: "CC-BY-4.0"
 citation: ""
 team_funding: ""
 designated_model: true
-methods: ""
-data_inputs: ""
+methods: "GLM"
+data_inputs: "socioenvironmental determinants"
 methods_long: "Various datasets containing information on West Nile Virus (WNV) cases, environmental factors, and biological variables are prepared and merged based on county, year, and month. The script then handles missing values and adds lagged climate variables such as temperature, precipitation, and Palmer Drought Severity Index to the dataset. Subsequently, a Negative Binomial Generalized Linear Model (GLM) is fitted to predict WNV cases using the lagged climate variables. Finally, the model is used to make predictions for new data. Additionally, the script mentions a covariate adjustment approach involving the evaluation of RMSE changes when dropping covariates from the model, although the specific implementation of this step is not provided."
 ensemble_of_models: false
 ensemble_of_hub_models: false
