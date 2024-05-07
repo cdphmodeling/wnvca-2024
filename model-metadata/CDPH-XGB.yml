@@ -19,7 +19,7 @@ website_url: "https://github.com/cdphmodeling/wnvca-2024"
 license: "CC-BY-4.0"
 citation: ""
 team_funding: ""
-designated_model: false
+designated_model: true
 methods: "XGBoost algorithm used to predict the number of cases in a monthly basis."
 data_inputs: "Historic WNV cases, temperature, precipitation, mosquito counts, dead bird reports."
 methods_long: >

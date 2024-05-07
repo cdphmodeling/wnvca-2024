@@ -53,7 +53,7 @@ One of the [accepted licenses](https://github.com/cdcepi/FluSight-forecast-hub/b
 
 ### designated_model 
 
-A team-specified boolean indicator (`true` or `false`) for whether the model should be considered eligible for inclusion in a Hub ensemble and public visualization. A team may specify up to two models as a designated_model for inclusion. Models which have a designated_model value of 'False' will still be included in internal forecasting hub evaluations.
+A team-specified boolean indicator (`true` or `false`) for whether the model should be considered eligible for inclusion in a Hub ensemble and public visualization. Models which have a designated_model value of 'False' will still be included in internal forecasting hub evaluations.
 
 ### data_inputs
 

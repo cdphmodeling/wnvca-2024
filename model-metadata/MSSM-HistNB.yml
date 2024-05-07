@@ -1,0 +1,23 @@
+team_name: Mount Sinai Env. Medicine and climate science 
+team_abbr: MSSM
+model_name: Optimized Historical Negative Binomial Dist. County_State
+model_abbr: HistNB
+model_contributors: [
+   {
+	"name": "Aman Patel",
+	"affiliation": "Icahn School of Medicine at Mount Sinai",
+	"email": "aman.patel1@mssm.edu"
+   },
+   {
+	"name": "Nicholas DeFelice",
+	"affiliation": "Icahn School of Medicine at Mount Sinai",
+	"email": "nicholas.defelice@mssm.edu"
+   }
+]
+license: "CC-BY-4.0"
+designated_model: true
+data_inputs: Monthly WNV Human Case Counts by County
+methods: Negative binomial distributions of historical monthly human WNV cases (2006-2023) by county. Final distribution is an optimized weighted mixture of county and state-wide distributions. 
+methods_long: Weighted combinations of county and state negative binomial distributions were tested using Leave-One-Year-Out analysis to determine which combination performs best historically by month. The best-performing weights by month were used to generate mixed distributions for each county-month in 2024. The optimal weights for the county-state combination was 0.2 and 0.8, 0.75 and 0.25, 0.55 and 0.45, and 0.3 and 0.7 for January to May, June to September, October to November, and December, respectively. All analysis was performed in R v4.3.2.
+ensemble_of_models: false
+ensemble_of_hub_models: false

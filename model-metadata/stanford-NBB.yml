@@ -1,0 +1,27 @@
+team_name: "Mordecai Lab at Stanford University"
+team_abbr: "stanford"
+model_name: "Negative Binomial Baseline"
+model_abbr: "NBB"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Mauricio Cruz-Loya",
+    "affiliation": "Stanford University",
+    "email": "cruzloya@stanford.edu"
+  },
+  {
+    "name": "Joshua Emilio Lazaro",
+    "affiliation": "Stanford University",
+    "email": "jelazaro@stanford.edu"
+  }
+]
+website_url: "https://www.mordecailab.com/#about-marquee"
+license: "CC-BY-4.0"
+citation: ""
+team_funding: ""
+designated_model: true
+methods: ""
+data_inputs: "WNV case data"
+methods_long: "A negative binomial distribution was fit to the case data of all years for each county and month. In cases where the fit was not successful, a Poisson distribution was used instead. For county-month combinations with zero observed cases in all years, a Poisson distribution with a small nonzero mean was used. Note that this model differs from the CDPH negative binomial baseline model, as it does not explicitly use the previous year cases as a covariate, and a separate distribution is fit to each county-month combination."
+ensemble_of_models: false
+ensemble_of_hub_models: false
