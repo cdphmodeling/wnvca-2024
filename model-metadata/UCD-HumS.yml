@@ -1,0 +1,28 @@
+team_name: "DART Lab at UC Davis"
+team_abbr: "UCD"
+model_name: "Human Forecast - Graduate Student"
+model_abbr: "HumS"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Christopher M. Barker",
+    "affiliation": "UC Davis",
+    "email": "cmbarker@ucdavis.edu"
+  },
+  {
+    "name": "Karen E. Click",
+    "affiliation": "UC Davis",
+    "email": "keclick@ucdavis.edu"
+  }
+]
+website_url: "https://barkerlab.ucdavis.edu"
+license: "CC-BY-4.0"
+citation: ""
+team_funding: "Funding support from the Pacific Southwest Regional Center of Excellence for Vector-Borne Diseases funded by the U.S. Centers for Disease Control and Prevention (Cooperative Agreement 1U01CK000649)."
+designated_model: false
+methods: "Human predictions made by a graduate student in epidemiology based on history of WNV disease."
+data_inputs: "Historic WNV cases (Mean, Min, Max, 10th and 90th percentiles, and last 5 years of data per county-month); Knowledge and experience of participant."
+methods_long: >
+  "The graduate student provided monthly numbers for each county for the following quantities: Average per month (2006-2023), Minimum per month (2006-2023), 10th percentile per month (2006-2023), 90th percentile per month (2006-2023), Maximum per month (2006-2023), Number of cases in 2019, Number of cases in 2020, Number of cases in 2021, Number of cases in 2022, Number of cases in 2023. They were then asked to answer the following questions for each month for each county: 1. The most likely number of cases in the indicated month will be ___, 2. The percent chance that at least one case will occur in the indicated month will be ___, 3. I am 90% sure that the number of cases in the indicated month will be greater than ___, and 4. I am 90% sure that the number of cases in the indicated month will be less than ___. From these inputs, a probabilistic forecast was constructed using the answer to question 2 to define the probability of zero cases, then the probabilities of one or more cases were defined based on a Poisson distribution if Prob(0 cases) > Prob(1 case) or a log-normal distribution based on quantile answers to questions 3 and 4 above."
+ensemble_of_models: false
+ensemble_of_hub_models: false
