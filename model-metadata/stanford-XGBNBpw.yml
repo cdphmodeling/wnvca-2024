@@ -1,7 +1,7 @@
 team_name: "Mordecai Lab at Stanford University"
 team_abbr: "stanford"
 model_name: "XGBoost Negative Binomial Model (Past Weather)"
-model_abbr: "NBB"
+model_abbr: "XGBNBBpw"
 model_version: "1.0"
 model_contributors: [
   {
