@@ -1,0 +1,36 @@
+team_name: "California Department of Public Health"
+team_abbr: "CDPH"
+model_name: "Human Forecast - VBDS Team"
+model_abbr: "HumV"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Hector M. Sanchez C.",
+    "affiliation": "California Department of Public Health",
+    "email": "hector.sanchez-castellanos@cdph.ca.gov"
+  },
+  {
+    "name": "VBDS Team",
+    "affiliation": "California Department of Public Health",
+    "email": "arbovirus@cdph.ca.gov"
+  },
+  {
+    "name": "Tomas M. Leon",
+    "affiliation": "California Department of Public Health",
+    "email": "tomas.leon@cdph.ca.gov"
+  }
+]
+website_url: "https://github.com/cdphmodeling/wnvca-2024"
+license: "CC-BY-4.0"
+citation: ""
+team_funding: ""
+designated_model: false
+methods: "Human predictions made by the VBDS team based on history of WNV disease in California (following UC Davis' methodology)."
+data_inputs: "Historic WNV cases (Mean, Median, Min, Max, 10th and 90th percentiles, and last 5 years of data per county-month); Knowledge and experience of participant."
+methods_long: >
+  "The team was provided with the following statistics for the 2005-2023 WNV seasons: min, max, mean, median, 90th and 10th percentile; along with number of cases for 2019 through 2023 by year-month.
+  The data was aggregated into two regions: SoCal (Los Angeles, Orange, Riverside, San Bernardino) and Central (Fresno, Kern, Merced, Placer, Sacramento, San Joaquin, Stanislaus, Tulare).
+  Participants were then asked to answer the following questions for each month for each region: 1. The most likely number of cases in the indicated month will be ___, 2. The percent chance that at least one case will occur in the indicated month will be ___, 3. I am 90% sure that the number of cases in the indicated month will be greater than ___, and 4. I am 90% sure that the number of cases in the indicated month will be less than ___. 
+  From these inputs, the regions were de-aggregated into counties by their historic contribution of cases to the total in the region, and a probabilistic forecast was constructed using the answer to question 2 to define the probability of zero cases, then the probabilities of one or more cases were defined based on a Poisson distribution if Prob(0 cases) > Prob(1 case) or a log-normal distribution based on quantile answers to questions 3 and 4 above."
+ensemble_of_models: false
+ensemble_of_hub_models: false

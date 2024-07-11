@@ -4,6 +4,12 @@ libs = c(
 )
 invisible(lapply(libs, require, character.only=TRUE))
 
+# remotes::install_github("Infectious-Disease-Modeling-Hubs/hubUtils")
+# remotes::install_github("Infectious-Disease-Modeling-Hubs/hubEnsembles")
+# remotes::install_github("Infectious-Disease-Modeling-Hubs/hubValidations")
+# remotes::install_github("Infectious-Disease-Modeling-Hubs/hubAdmin")
+# remotes::install_github("Infectious-Disease-Modeling-Hubs/hubData")
+
 HUB_PATH = '.'
 ###############################################################################
 # Validate config file 
@@ -34,7 +40,7 @@ details = details[with(details, order(as.POSIXct(mtime))), ]
 cFiles = rownames(details)
 sapply(cFiles, hubValidations::validate_model_metadata, hub_path='.')
 # Examine individual file -----------------------------------------------------
-file_path = 'UCD-GLM.yml'
+file_path = 'CDPH-VBDS.yml'
 hubValidations::validate_model_metadata(
   file_path=file_path,
   hub_path=HUB_PATH
@@ -51,7 +57,7 @@ cFiles = rownames(details)
 # print(cFiles)
 sapply(cFiles, hubValidations::validate_submission, hub_path='.')
 # Examine individual files ----------------------------------------------------
-file_path = "UCD-GLM/2024-04-30-UCD-GLM.csv"
+file_path = "CDPH-EQV/2024-07-31-CDPH-EQV.csv"
 hubValidations::validate_submission(
   file_path=file_path,
   hub_path=HUB_PATH
