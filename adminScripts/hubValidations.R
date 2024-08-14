@@ -57,12 +57,22 @@ cFiles = rownames(details)
 # print(cFiles)
 sapply(cFiles, hubValidations::validate_submission, hub_path='.')
 # Examine individual files ----------------------------------------------------
-file_path = "CDPH-EQV/2024-07-31-CDPH-EQV.csv"
+file_path = "CDPH-XBG/2024-07-31-CDPH-XGB.csv"
 hubValidations::validate_submission(
   file_path=file_path,
   hub_path=HUB_PATH
 )
 # read_model_out_file(file_path)
-
-
+###############################################################################
+# Count Submissions
+###############################################################################
+folder = "/data/home/CDPHINTRA.CA.GOV/hsanchez/wnvca-2024/model-output/"
+files = list.files(
+  folder, pattern=".", 
+  all.files=FALSE, recursive=TRUE, full.names=TRUE
+)
+length(files)
+dir_list = split(files, dirname(files))
+files_in_folder = sapply(dir_list, length)
+files_in_folder
 
