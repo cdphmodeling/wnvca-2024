@@ -17,7 +17,7 @@ model_contributors: [
 license: "CC-BY-4.0"
 designated_model: true
 data_inputs: Monthly WNV human case counts by county, Annual cases by county (2006-2022) & Monthly temperature, precipitation, soil moisture, and relative humidity. Environmental data was from NLDAS. All data used were collected by August 1, 2024.
-methods: Environmentally informed hierarchical negative binomial models trained on historical annual human WNV cases (2006-2022) by county. Annual estimates are divided using historical case proportions by month.
+methods: Environmentally informed hierarchical negative binomial models trained on historical annual human WNV cases (2006-2022) by county. Annual estimates divided using historical case proportions by month.
 methods_long: Candidate models were trained on annual WNV human cases per million by county and subsets of monthly environmental measurements. Environmental data was at a 13 km x 13 km grid, and all cells intersecting a county with trapping data were included to scale up for the monthly average environmental indicator. Annual prediction distributions from the best-performing models were aggregated based on model AICc weighting. Annual estimates divided using historical monthly case proportions, which were sampled from county and state-wide distributions. The optimal weights for the county-state combination was 0.2 and 0.8, 0.75 and 0.25, 0.55 and 0.45, and 0.3 and 0.7 for January to May, June to September, October to November, and December, respectively. Bootstrap samples of monthly cases per million by county were generated and binned for final submission. All analysis was performed in R v4.3.3.
 ensemble_of_models: false
 ensemble_of_hub_models: false
