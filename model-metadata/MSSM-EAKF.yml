@@ -1,0 +1,24 @@
+team_name: Mount Sinai Env. Medicine and Climate Science 
+team_abbr: MSSM
+model_name: Temperature-forced Mathematical Model with EAKF Assimilation
+model_abbr: EAKF
+model_contributors: [
+   {
+	"name": "Aman Patel",
+	"affiliation": "Icahn School of Medicine at Mount Sinai",
+	"email": "aman.patel1@mssm.edu"
+   },
+   {
+	"name": "Nicholas DeFelice",
+	"affiliation": "Icahn School of Medicine at Mount Sinai",
+	"email": "nicholas.defelice@mssm.edu"
+   }
+]
+license: "CC-BY-4.0"
+designated_model: true
+data_inputs: Weekly cases by county, Average daily temperature from 1980-2000 by county, and weekly mosquito trapping and WNV testing data. All data used were collected by August 1, 2024. Most recent mosquito trapping observations used for each county are: 1) Fresno - 2024-07-24, 2) Kern - 2024-07-19, 3) Los Angeles - 2024-07-25, 4) Merced - 2024-07-24, 5) Orange - 2024-07-24, 6) Placer - 2024-07-25, 7) Riverside - 2024-07-26, 8) Sacramento - 2024-07-26, 9) San Bernardino - 2024-07-26, 10) San Joaquin - 2024-07-24, 11) Solano - 2024-07-25, 12) Stanislaus - 2024-07-23, 13) Tulare - 2024-07-19
+methods: Annual prediction CDF updated weekly with mosquito trapping and testing observations and human cases using EAKF assimilation. Annual estimates divided using historical case proportions by month.
+methods_long: Temperature-forced model using weekly observations of WNV human cases, mosquito trapping and testing to iteratively generate annual human case count forecast distributions. Annual estimates divided using historical monthly case proportions, which were sampled from county and state-wide distributions. The optimal weights for the county-state combination was 0.2 and 0.8, 0.75 and 0.25, 0.55 and 0.45, and 0.3 and 0.7 for January to May, June to September, October to November, and December, respectively. Bootstrap samples of monthly cases per million by county were generated and binned for final submission. Analysis was performed in R v4.3.3 and MATLAB R2022b.
+ensemble_of_models: false
+ensemble_of_hub_models: false
+citation: "DeFelice NB, Schneider ZD, Little E, Barker C, Caillouet KA, Campbell SR, Damian D, Irwin P, Jones HMP, Townsend J, Shaman J. Use of temperature to improve West Nile virus forecasts. PLoS Comput Biol. 2018 Mar 9;14(3):e1006047. doi: 10.1371/journal.pcbi.1006047. PMID: 29522514; PMCID: PMC5862506."
