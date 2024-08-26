@@ -57,7 +57,7 @@ cFiles = rownames(details)
 # print(cFiles)
 sapply(cFiles, hubValidations::validate_submission, hub_path='.')
 # Examine individual files ----------------------------------------------------
-file_path = "CDPH-XBG/2024-07-31-CDPH-XGB.csv"
+file_path = "/CDPH-VBDS/2024-08-31-CDPH-VBDS.csv"
 hubValidations::validate_submission(
   file_path=file_path,
   hub_path=HUB_PATH
