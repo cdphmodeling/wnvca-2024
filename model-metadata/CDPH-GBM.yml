@@ -1,6 +1,6 @@
 team_name: "California Department of Public Health"
 team_abbr: "CDPH"
-model_name: "LightGBM cases predictor."
+model_name: "LightGBM PM predictor."
 model_abbr: "GBM"
 model_version: "1.0"
 model_contributors: [
