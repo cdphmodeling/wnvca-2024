@@ -1,0 +1,31 @@
+team_name: "California Department of Public Health"
+team_abbr: "CDPH"
+model_name: "LightGBM cases predictor."
+model_abbr: "GBM"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Hector M. Sanchez C.",
+    "affiliation": "California Department of Public Health",
+    "email": "hector.sanchez-castellanos@cdph.ca.gov"
+  },
+  {
+    "name": "Tomas M. Leon",
+    "affiliation": "California Department of Public Health",
+    "email": "tomas.leon@cdph.ca.gov"
+  }
+]
+website_url: "https://github.com/cdphmodeling/wnvca-2024"
+license: "CC-BY-4.0"
+citation: ""
+team_funding: ""
+designated_model: true
+methods: "LightGBM algorithm used to predict the number of cases in a monthly basis."
+data_inputs: "Historic WNV cases, temperature, precipitation, mosquito counts, dead bird reports, RUCC."
+methods_long: >
+  "Two predictors were trained upon the data. The first one is a binary classifier to detect if any cases are present, 
+  and returns the probabilities of P(C=0) and P(C>0). The second classifier assesses the probability of cases being in any of the non-zero 
+  classification bins and returns a vector of probabilities P(C=bin). Finally, we evaluate both predictors on each data point and retrieve the full 
+  distribution with: P(C=0), P(C>0)*P(C=bin)."
+ensemble_of_models: false
+ensemble_of_hub_models: false
