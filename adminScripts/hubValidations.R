@@ -10,7 +10,7 @@ invisible(lapply(libs, require, character.only=TRUE))
 # remotes::install_github("Infectious-Disease-Modeling-Hubs/hubAdmin")
 # remotes::install_github("Infectious-Disease-Modeling-Hubs/hubData")
 
-HUB_PATH = '.'
+HUB_PATH = './wnvca-2024'
 ###############################################################################
 # Validate config file 
 ###############################################################################
@@ -57,7 +57,7 @@ cFiles = rownames(details)
 # print(cFiles)
 sapply(cFiles, hubValidations::validate_submission, hub_path='.')
 # Examine individual files ----------------------------------------------------
-file_path = "/CDPH-NBN/2024-09-30-CDPH-NBN.csv"
+file_path = "/CDPH-VBDS/2024-09-30-CDPH-VBDS.csv"
 hubValidations::validate_submission(
   file_path=file_path,
   hub_path=HUB_PATH
