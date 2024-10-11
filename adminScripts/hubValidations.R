@@ -40,7 +40,7 @@ details = details[with(details, order(as.POSIXct(mtime))), ]
 cFiles = rownames(details)
 sapply(cFiles, hubValidations::validate_model_metadata, hub_path='.')
 # Examine individual file -----------------------------------------------------
-file_path = 'CDPH-VTE.yml'
+file_path = 'CDPH-NBNP.yml'
 hubValidations::validate_model_metadata(
   file_path=file_path,
   hub_path=HUB_PATH
@@ -57,7 +57,7 @@ cFiles = rownames(details)
 # print(cFiles)
 sapply(cFiles, hubValidations::validate_submission, hub_path='.')
 # Examine individual files ----------------------------------------------------
-file_path = "/CDPH-CNY/2024-09-30-CDPH-CNY.csv"
+file_path = "/CDPH-NBNP/2024-11-30-CDPH-NBNP.csv"
 hubValidations::validate_submission(
   file_path=file_path,
   hub_path=HUB_PATH
