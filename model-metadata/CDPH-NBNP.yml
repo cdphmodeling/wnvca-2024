@@ -1,0 +1,29 @@
+team_name: "California Department of Public Health"
+team_abbr: "CDPH"
+model_name: "Negative binomial with population intercept baseline model."
+model_abbr: "NBNP"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Hector M. Sanchez C.",
+    "affiliation": "California Department of Public Health",
+    "email": "hector.sanchez-castellanos@cdph.ca.gov"
+  },
+  {
+    "name": "Tomas M. Leon",
+    "affiliation": "California Department of Public Health",
+    "email": "tomas.leon@cdph.ca.gov"
+  }
+]
+website_url: "https://github.com/cdphmodeling/wnvca-2024"
+license: "CC-BY-4.0"
+citation: ""
+team_funding: ""
+designated_model: false
+methods: "Negative binomial model fitted with data from previous year."
+data_inputs: ""
+methods_long: >
+  "A negative binomial distribution was fitted to the number of cases using the number of cases in the same month from the previous year.
+  All counties in the challenge were used in the Bayesian regression, which follows the form: Cases[year] ~ Cases[year-1] + offset(log(Population[year-1]))."
+ensemble_of_models: false
+ensemble_of_hub_models: false
