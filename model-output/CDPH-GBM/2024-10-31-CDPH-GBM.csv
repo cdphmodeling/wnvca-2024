@@ -1,0 +1,287 @@
+location,origin_date,target_date,output_type_id,value,output_type,target
+Fresno,2024-10-31,2024-11-30,0,0.70255,cdf,WNV cases
+Fresno,2024-10-31,2024-11-30,1,0.77617,cdf,WNV cases
+Fresno,2024-10-31,2024-11-30,2,0.95641,cdf,WNV cases
+Fresno,2024-10-31,2024-11-30,3,0.96463,cdf,WNV cases
+Fresno,2024-10-31,2024-11-30,4,0.98116,cdf,WNV cases
+Fresno,2024-10-31,2024-11-30,5,0.98459,cdf,WNV cases
+Fresno,2024-10-31,2024-11-30,6,0.99088,cdf,WNV cases
+Fresno,2024-10-31,2024-11-30,8,0.99294,cdf,WNV cases
+Fresno,2024-10-31,2024-11-30,10,0.99508,cdf,WNV cases
+Fresno,2024-10-31,2024-11-30,15,0.99701,cdf,WNV cases
+Fresno,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,0,0.5554,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,1,0.5616,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,2,0.80051,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,3,0.82459,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,4,0.91623,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,5,0.92368,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,6,0.96232,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,8,0.97014,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,10,0.97921,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,15,0.98787,cdf,WNV cases
+Kern,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,0,0.48168,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,1,0.83612,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,2,0.96151,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,3,0.9742,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,4,0.98581,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,5,0.98771,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,6,0.99182,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,8,0.99446,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,10,0.99614,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,15,0.99787,cdf,WNV cases
+Los Angeles,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,0,0.67918,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,1,0.69328,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,2,0.70691,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,3,0.72189,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,4,0.81885,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,5,0.85476,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,6,0.87249,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,8,0.89133,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,10,0.9106,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,15,0.94081,cdf,WNV cases
+Merced,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,0,0.59395,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,1,0.96058,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,2,0.98722,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,3,0.99165,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,4,0.99358,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,5,0.9947,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,6,0.99576,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,8,0.99699,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,10,0.99824,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,15,0.99911,cdf,WNV cases
+Orange,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,0,0.91586,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,1,0.91697,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,2,0.91809,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,3,0.98879,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,4,0.99215,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,5,0.99362,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,6,0.9945,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,8,0.99578,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,10,0.99683,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,15,0.99841,cdf,WNV cases
+Placer,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,0,0.63956,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,1,0.91273,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,2,0.97189,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,3,0.97743,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,4,0.98486,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,5,0.98738,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,6,0.99112,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,8,0.99315,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,10,0.99457,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,15,0.99741,cdf,WNV cases
+Riverside,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,0,0.59256,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,1,0.80484,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,2,0.98757,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,3,0.99285,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,4,0.99454,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,5,0.99522,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,6,0.99689,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,8,0.99775,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,10,0.99856,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,15,0.99921,cdf,WNV cases
+Sacramento,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,0,0.80785,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,1,0.96861,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,2,0.98913,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,3,0.99167,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,4,0.99353,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,5,0.99457,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,6,0.99655,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,8,0.99751,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,10,0.99842,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,15,0.99897,cdf,WNV cases
+San Bernardino,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,0,0.56583,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,1,0.56949,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,2,0.89313,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,3,0.90081,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,4,0.9528,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,5,0.9598,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,6,0.97609,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,8,0.98295,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,10,0.98696,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,15,0.99203,cdf,WNV cases
+San Joaquin,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,0,0.69914,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,1,0.70781,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,2,0.71688,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,3,0.86431,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,4,0.8943,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,5,0.91119,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,6,0.93971,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,8,0.95233,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,10,0.96116,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,15,0.98421,cdf,WNV cases
+Solano,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,0,0.72348,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,1,0.72621,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,2,0.94509,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,3,0.95609,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,4,0.96567,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,5,0.9695,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,6,0.98318,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,8,0.9873,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,10,0.99026,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,15,0.99384,cdf,WNV cases
+Stanislaus,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,0,0.72059,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,1,0.73058,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,2,0.74024,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,3,0.85942,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,4,0.89438,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,5,0.91052,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,6,0.93319,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,8,0.95175,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,10,0.96254,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,15,0.9751,cdf,WNV cases
+Tulare,2024-10-31,2024-11-30,200,1.0,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,0,0.96831,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,1,0.97194,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,2,0.9963,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,3,0.9972,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,4,0.99835,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,5,0.99866,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,6,0.99909,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,8,0.99926,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,10,0.99936,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,15,0.99964,cdf,WNV cases
+Fresno,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,0,0.93512,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,1,0.93546,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,2,0.99326,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,3,0.99503,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,4,0.99697,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,5,0.99753,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,6,0.99834,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,8,0.99868,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,10,0.99885,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,15,0.99936,cdf,WNV cases
+Kern,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,0,0.96313,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,1,0.98576,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,2,0.99437,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,3,0.99564,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,4,0.99701,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,5,0.99758,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,6,0.99826,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,8,0.99859,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,10,0.99877,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,15,0.99931,cdf,WNV cases
+Los Angeles,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,0,0.97024,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,1,0.97137,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,2,0.97237,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,3,0.97356,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,4,0.98388,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,5,0.98616,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,6,0.98803,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,8,0.98918,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,10,0.98979,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,15,0.99325,cdf,WNV cases
+Merced,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,0,0.96973,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,1,0.98788,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,2,0.99532,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,3,0.99632,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,4,0.99758,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,5,0.99805,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,6,0.99859,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,8,0.99885,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,10,0.999,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,15,0.99944,cdf,WNV cases
+Orange,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,0,0.96976,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,1,0.9704,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,2,0.97096,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,3,0.98921,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,4,0.99182,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,5,0.99314,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,6,0.9942,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,8,0.99485,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,10,0.9952,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,15,0.99672,cdf,WNV cases
+Placer,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,0,0.97135,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,1,0.98543,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,2,0.9964,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,3,0.99717,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,4,0.99815,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,5,0.99848,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,6,0.99891,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,8,0.99911,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,10,0.99922,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,15,0.99957,cdf,WNV cases
+Riverside,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,0,0.87409,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,1,0.90523,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,2,0.98504,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,3,0.98796,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,4,0.99245,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,5,0.99383,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,6,0.99558,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,8,0.99644,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,10,0.9969,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,15,0.99824,cdf,WNV cases
+Sacramento,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,0,0.87766,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,1,0.91954,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,2,0.97976,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,3,0.98359,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,4,0.98988,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,5,0.99171,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,6,0.99406,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,8,0.99521,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,10,0.99583,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,15,0.99763,cdf,WNV cases
+San Bernardino,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,0,0.96941,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,1,0.96956,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,2,0.99663,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,3,0.99736,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,4,0.99843,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,5,0.99864,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,6,0.99896,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,8,0.99911,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,10,0.99919,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,15,0.99941,cdf,WNV cases
+San Joaquin,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,0,0.9759,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,1,0.97642,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,2,0.97687,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,3,0.99157,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,4,0.99339,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,5,0.99443,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,6,0.99575,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,8,0.99632,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,10,0.9966,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,15,0.99782,cdf,WNV cases
+Solano,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,0,0.97001,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,1,0.97023,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,2,0.99518,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,3,0.99633,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,4,0.99711,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,5,0.99745,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,6,0.99821,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,8,0.99846,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,10,0.99858,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,15,0.99905,cdf,WNV cases
+Stanislaus,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,0,0.96124,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,1,0.96251,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,2,0.96363,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,3,0.97928,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,4,0.98367,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,5,0.98646,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,6,0.98936,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,8,0.99079,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,10,0.99148,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,15,0.99462,cdf,WNV cases
+Tulare,2024-10-31,2024-12-31,200,1.0,cdf,WNV cases
